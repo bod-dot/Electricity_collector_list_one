@@ -1,0 +1,39 @@
+name: testing_final
+description: "A new Flutter project."
+
+# يمنع نشر الحزمة إلى pub.dev
+publish_to: 'none'
+
+# إصدار التطبيق
+version: 1.0.0+1
+
+# بيئة تشغيل SDK
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# قائمة الحزم الأساسية
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_bloc: any
+  bloc: any
+  meta: any
+  http: ^1.3.0
+  shared_preferences: ^2.3.3
+  google_fonts: ^5.1.0
+  flutter_staggered_animations: ^1.1.1
+  flutter_svg: ^2.0.7
+  lottie: ^2.7.0
+  awesome_snackbar_content: ^0.1.5
+
+
+# حزم التطوير والاختبار
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# إعدادات Flutter
+flutter:
+  uses-material-design: true
